@@ -68,21 +68,16 @@ h1, h2, h3, h4, h5 {
 	margin: auto
 }
 
-h1 {
-	font-size: 75px;
-}
-
-section.title {
-	text-align: center;
-	line-height: 55px;
+header {
+    margin-top: 20px;
+    margin-bottom: 30px;
 	display: flex;
 	align-items: center;
-	margin-top: 50px;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 
-.position {
-	margin-right: 85px;
+.services-header-img {
+    width: 100%;
 }
 
 nav a {
@@ -91,55 +86,15 @@ nav a {
 	color: #909090;
 }
 
-
-nav.get-started-nav a {
-	border: 1px solid black;
-	padding: 2px 42px 2px 42px;
-	color: black
-}
-
-header {
-	margin-top: 20px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.top-content {
-	margin: 110px 0 5px 0;
-	padding: 35px 0 30px 0;
-	border-top: 2px solid black;
-	display: flex;
-}
-
 .side-by-side {
-	margin: 5px;
-}
-.middle-img {
-	width: 850px;
-	margin-bottom: 35px
+    display: flex;
+    justify-content: space-between;
 }
 
-.three-side {
-	margin: 5px;
-}
-
-
-.bottom-content {
-	margin-bottom: 40px;
-	padding-bottom: 45px;
-	border-bottom: 2px solid black;
-	display: flex;
-}
-
-.copyright {
-	text-align: center;
-}
-
-footer address {
-	margin-bottom: 20px
-}
-
-footer p {
-	margin-bottom: 20px;
+.text-boxes {
+    border: 2px solid black;
+    margin: 20px 0px 20px 0;
+    width: 48%;
+    height: 250px;
+    text-align: left;
 }
