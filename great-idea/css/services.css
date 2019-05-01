@@ -77,7 +77,12 @@ header {
 }
 
 .services-header-img {
-    width: 100%;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+h1 {
+	font-size: 26px;
 }
 
 nav a {
@@ -91,10 +96,55 @@ nav a {
     justify-content: space-between;
 }
 
+.main-content {
+	margin-top: 40px;
+	padding-top: 25px;
+	border-top: 1px solid black;
+}
+
 .text-boxes {
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 20px 0px 20px 0;
     width: 48%;
-    height: 250px;
-    text-align: left;
+    height: 235px;
+	text-align: left;
+	padding: 20px;
+	background: rgb(238, 238, 238)
+}
+
+.learn-more {
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 30px 5px 30px;
+	color: black;
+	background: white;
+	font-size: 12px;
+}
+
+.content-paragraphs {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+.bottom-content {
+	display: flex;
+	margin-top: 25px;
+	margin-bottom: 80px;
+	border-top: 1px solid black;
+	padding-top: 50px;
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+li {
+	padding-top: 14px;
+}
+
+footer {
+	text-align: center;
 }
